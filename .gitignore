@@ -1,0 +1,9 @@
+*.aux
+*.log
+*report*.pdf
+*.synctex.gz
+DecisionSupportSystems.config
+DecisionSupportSystems.creator
+DecisionSupportSystems.creator.user
+DecisionSupportSystems.files
+DecisionSupportSystems.includes

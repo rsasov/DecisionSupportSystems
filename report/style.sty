@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%																		%%%%
+%%%% 		PLEASE EDIT THIS FILE ONLY IF YOU KNOW WHAT YOU ARE DOING		%%%%
+%%%%																		%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,10pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp} %more text symbols
+\usepackage{multicol} %easy text on several columns
+\usepackage{appendix} %appendix management 
+\usepackage{tocloft} %table of content, list of figures, list of tables...
+\usepackage{lmodern} %fonts
+\usepackage{pifont} %picture font (for puce)
+\usepackage[english]{babel}
+\usepackage{titlesec} %custom section display
+\usepackage{enumitem} %lists
+\usepackage{eso-pic} %for background image
+\usepackage{geometry} %margin
+\geometry{top=1cm,bottom=1cm,right=2cm,left=2cm}
+\usepackage{graphicx} %picture and figures
+\usepackage{transparent} %picture opacity
+\usepackage[export]{adjustbox} % right-left align for pictures
+\usepackage{caption} %more pictures options
+\usepackage{float} %pictures and figures placement management
+\usepackage{xcolor} %easy color management
+\usepackage{colortbl} %easy color management
+\usepackage{array} %easy array creation
+\usepackage{longtable} %multipage tables
+\usepackage{multirow} %fusion of rows
+	\setlength{\tabcolsep}{4pt}
+	\renewcommand{\arraystretch}{1.3}
+\usepackage{hyperref} %links on table of contents and others
+\usepackage{fancyhdr} %for header and footer
+\definecolor{perso}{cmyk}{1,0.5,0,0.2} %custom color for link (hyperref package)
+\hypersetup{ %links : no border and one color
+  pdffitwindow=true,
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=perso,
+  citecolor=black, 
+  pdfborder={0 0 0}
+ }
+ 
+\setcounter{tocdepth}{3} %depth of the contents table
+\sloppy %for less caesura
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\fontfamily{cmss}
+\selectfont
+
+\titleformat{\chapter}% to change chapter title format (remove chapter number)
+  [display]% style : hang, display, runin, leftmargin, ...
+  {\bfseries}% changement de fontenuméro + titre
+  {}% numéro
+  {0pt}% espace entre le numéro et le titre
+  {\Huge}% changement de font du titre
+
+\makeatletter
+%add the command \testsubscript{} which create indice text
+\DeclareRobustCommand*\textsubscript[1]{%
+  \@textsubscript{\selectfont#1}}
+\def\@textsubscript#1{%
+  {\m@th\ensuremath{_{\mbox{\fontsize\sf@size\z@#1}}}}}
+
+  
+\def\course#1{\gdef\@course{#1}}% course
+\def\@course{\@latex@error{No \noexpand\course given}\@ehc}
+  
+\def\supervisor#1{\gdef\@supervisor{#1}} % supervisor
+\def\@supervisor{\@latex@error{No \noexpand\supervisor given}\@ehc}
+
+\def\school#1{\gdef\@school{#1}}% school
+\def\@school{\@latex@error{No \noexpand\school given}\@ehc}
+
+\def\place#1{\gdef\@place{#1}}% place
+\def\@place{\@latex@error{No \noexpand\place given}\@ehc}
+
+\def\abstractText#1{\gdef\@abstractText{#1}}% abstract
+\def\@abstractText{\@latex@error{No \noexpand\abstractText given}\@ehc}
+
+\renewcommand{\maketitle}{% custom title page with \maketitle
+\begin{titlepage}
+
+\AddToShipoutPictureBG*{
+	\transparent{0.4}{\includegraphics[width=\paperwidth,height=\paperheight]{cover}}
+};
+
+\begin{flushright}
+{{\Large\bfseries Project report}}\\
+\vspace{1mm}
+{Submission Date: 5 June, 2017}\\
+\vspace{5mm}
+{\large\@school}\\
+\vspace{1mm}
+\textsc{\@place}\\
+\vspace{1mm}
+{Academic year 2017 - 2018}\\
+\end{flushright}
+
+\vspace{5cm}
+
+\begin{center}
+\Huge{\bfseries \@title}\\
+\vspace{0.5cm} 
+\LARGE{\@course }\\
+\vspace{0.2cm}
+\Large{\@author}\\
+\vspace{0.5cm}
+{Supervised by \@supervisor}\\
+\end{center}
+
+\vspace{2cm}
+
+\begin{center}
+	\large{\textbf{Abstract}} \\
+	\vspace{1mm}
+	\textit{\@abstractText}
+\end{center}
+
+\end{titlepage}
+\stepcounter{page} %go to next page
+}
+
+\renewenvironment{abstract}{
+	\thispagestyle{empty}
+	\begin{center}
+		\bfseries\abstractname
+	\end{center}
+}
+
+\makeatother
