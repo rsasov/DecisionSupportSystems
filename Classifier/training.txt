@@ -1,0 +1,125 @@
+ABDOMINAL PAIN
+	- abdominal pain
+	- stomach pain
+	- my stomach hurts
+	- belly pain
+	- gut pain
+	- gut hurts
+	- stomach ache
+	- gut ache
+	- solar plexus pain
+	- belly hurts
+	- my stomach aches
+
+
+CHEST PAIN
+	- chest pain
+	- chest hurts
+	- chest hurt
+	- chest ache
+
+
+COUGH
+	- cough
+	- coughing
+	- dry cough
+	- tickling cough
+	- bold cough
+
+DIARRHEA
+	- diarrhea
+	- black stools
+	- blood stools
+	- liquid stools
+	- decreased urine
+
+DIZZINESS
+	- dizziness
+	- change in vision
+	- change in speech
+	- seeing black dots
+	- hearing loss
+	- lost of alertness
+	- unstable feet
+	- lost of balance
+
+FEVER
+	- fever
+	- stiff neck
+	- can't walk
+	- can't be calmed
+	- pain with urination
+	- can't be awakened
+
+FUSSINESS
+
+
+HEARTBURN
+	- trouble swallowing
+	- wheezing
+	- squeezing
+	- wheezing
+
+
+HIGH TEMPERATURE
+	- high temperature
+	- hyperthermia
+	- shivering
+
+LOW TEMPERATURE
+	- low temperature
+	- shallow breathing
+	- purple fingers and toes
+	- lack of coordination
+	- dilated pupils
+
+NASAL CONGESTION
+	- nasal congestion
+	- stuffy nose
+
+RAPID HEARTBEAT
+	- rapid heart beat
+	- short breath
+
+SORE THROAT
+	- sore throat
+	- annoying throat
+	- sensetive throat
+
+SWEATING
+	- sweat
+	- sweating
+	- warm
+
+THIRST
+	- thirsty
+	- thirst
+	- dry mouth
+
+TIREDNESS
+	- tired
+	- tiredness
+	- exhausted
+	- sleepy
+
+TROUBLE SLEEPING
+	- trouble sleeping
+	- insomnia
+	- sleeping trouble
+
+VOMITTING
+	- vomitting
+	- vomit
+	- gag
+	- throw up
+
+WEIGHT LOSS
+	- weight loss
+	- losing weight
+
+
+
+
+
+
+
