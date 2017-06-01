@@ -1,0 +1,75 @@
+abdominal pain : stomach pain
+abdominal pain : my stomach hurts
+abdominal pain : belly pain
+abdominal pain : gut pain
+abdominal pain : gut hurts
+abdominal pain : stomach ache
+abdominal pain : gut ache
+abdominal pain : solar plexus pain
+abdominal pain : belly hurts
+abdominal pain : my stomach aches
+chest pain : chest hurts
+chest pain : chest hurt
+chest pain : chest ache
+cough : coughing
+cough : dry cough
+cough : tickling cough
+cough : bold cough
+diarrhea : black stools
+diarrhea : blood stools
+diarrhea : liquid stools
+diarrhea : decreased urine
+difficult breathing : can't breath
+difficult breathing : noisy breaththing 
+difficult breathing : short breath
+dizziness : change in vision
+dizziness : change in speech
+dizziness : seeing black dots
+dizziness : hearing loss
+dizziness : lost of alertness
+dizziness : unstable feet
+dizziness : lost of balance
+fever : stiff neck
+fever : can't walk
+fever : can't be calmed
+fever : pain with urination
+fever : can't be awakened
+fussiness : easily upset
+fussiness : always angry
+fussiness : fussy
+headache : migraine 
+headache : tension headhache
+headache : cluster headache
+headache : my head hurts
+headache : pain in the head 
+headache : pain behind the eyes
+headache : pain in the back of my head
+headache : head hurts
+headache : pain head
+headache : my head aches
+high temperature : hyperthermia
+high temperature : shivering
+low temperature : shallow breathing
+low temperature : purple fingers and toes
+low temperature : lack of coordination
+low temperature : dilated pupils
+nasal congestion : stuffy nose
+rapid heart beat : short breath
+sore throat : annoying throat
+sore throat : sensetive throat
+sweat : sweating
+sweat : warm
+thirst : thirsty
+thirst : dry mouth
+tiredness : tired
+tiredness : exhausted
+tiredness : sleepy
+trouble sleeping : insomnia
+trouble sleeping : sleeping trouble
+vomitting : vomit
+vomitting : gag
+vomitting : throw up
+weight loss : losing weight
+heartburn : trouble swallowing
+heartburn : wheezing
+heartburn : squeezing
