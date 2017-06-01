@@ -1,8 +1,9 @@
 #!/usr/bin/bash
 filename="$1"
 i=1
-while read -r line
+while IFS='' read -r line || [[ -n "$line" ]]
 do
     name="$line"
-    touch "file$i"
+    echo "$name" > "./data/$1/file$i"
+    i=$((i+1))
 done < "$filename"
