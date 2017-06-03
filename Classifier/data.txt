@@ -1,3 +1,4 @@
+abdominal pain : abdominal pain
 abdominal pain : stomach pain
 abdominal pain : my stomach hurts
 abdominal pain : belly pain
@@ -8,20 +9,25 @@ abdominal pain : gut ache
 abdominal pain : solar plexus pain
 abdominal pain : belly hurts
 abdominal pain : my stomach aches
+chest pain : chest pain
 chest pain : chest hurts
 chest pain : chest hurt
 chest pain : chest ache
+cough : cough
 cough : coughing
 cough : dry cough
 cough : tickling cough
 cough : bold cough
+diarrhea : diarrhea
 diarrhea : black stools
 diarrhea : blood stools
 diarrhea : liquid stools
 diarrhea : decreased urine
+difficult breathing : difficult breathing
 difficult breathing : can't breath
 difficult breathing : noisy breaththing 
 difficult breathing : short breath
+dizziness : dizziness
 dizziness : change in vision
 dizziness : change in speech
 dizziness : seeing black dots
@@ -29,14 +35,17 @@ dizziness : hearing loss
 dizziness : lost of alertness
 dizziness : unstable feet
 dizziness : lost of balance
+fever : fever
 fever : stiff neck
 fever : can't walk
 fever : can't be calmed
 fever : pain with urination
 fever : can't be awakened
+fussiness : fussiness
 fussiness : easily upset
 fussiness : always angry
 fussiness : fussy
+headache : headache
 headache : migraine 
 headache : tension headhache
 headache : cluster headache
@@ -47,29 +56,41 @@ headache : pain in the back of my head
 headache : head hurts
 headache : pain head
 headache : my head aches
+high temperature : high temperature
 high temperature : hyperthermia
 high temperature : shivering
+low temperature : low temperature
 low temperature : shallow breathing
 low temperature : purple fingers and toes
 low temperature : lack of coordination
 low temperature : dilated pupils
+nasal congestion : nasal congestion
 nasal congestion : stuffy nose
+rapid heart beat : rapid heart beat
 rapid heart beat : short breath
+sore throat : sore throat
 sore throat : annoying throat
 sore throat : sensetive throat
-sweat : sweating
-sweat : warm
+sweating : sweat
+sweating : sweating
+sweating : warm
+thirst : thirst
 thirst : thirsty
 thirst : dry mouth
+tiredness : tiredness
 tiredness : tired
 tiredness : exhausted
 tiredness : sleepy
+trouble sleeping : trouble sleeping
 trouble sleeping : insomnia
 trouble sleeping : sleeping trouble
+vomitting : vomitting
 vomitting : vomit
 vomitting : gag
 vomitting : throw up
+weight loss : weight loss
 weight loss : losing weight
+heartburn : heartburn
 heartburn : trouble swallowing
 heartburn : wheezing
 heartburn : squeezing
