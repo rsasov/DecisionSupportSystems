@@ -7,10 +7,12 @@
 \BOOKMARK [1][-]{section.1.5}{Division of labor}{chapter.1}% 7
 \BOOKMARK [0][-]{chapter.2}{Project Design}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Overall Architecture}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{Database model}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{Project Implementation}{}% 11
-\BOOKMARK [1][-]{section.3.1}{Technology choices}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Questions logic}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.3}{Decision making}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Feedback}{}% 15
-\BOOKMARK [0][-]{paragraph*.10}{Conclusion}{}% 16
+\BOOKMARK [1][-]{section.2.2}{Database}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Database structure and design}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Data model}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Project Implementation}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Technology choices}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Questions logic}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Decision making}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Feedback}{}% 17
+\BOOKMARK [0][-]{paragraph*.13}{Conclusion}{}% 18
