@@ -9,6 +9,7 @@ def vectorize(indexes, sentence):
 
     return b
 
+#serialize objects
 def save_obj(obj, name):
     with open('obj-'+ name + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
@@ -36,6 +37,7 @@ X = [vectorize(ind_X, l[1]) for l in lines]
 lin_clf = svm.LinearSVC()
 lin_clf.fit(X, Y)
 
+#serialize needed objects
 save_obj(inv_ind_Y, 'reverse_classes_mapping')
 save_obj(ind_X, 'words_mapping')
 save_obj(lin_clf, 'linear_classifier')

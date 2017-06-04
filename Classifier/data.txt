@@ -47,7 +47,7 @@ fussiness : always angry
 fussiness : fussy
 headache : headache
 headache : migraine 
-headache : tension headhache
+headache : tension headache
 headache : cluster headache
 headache : my head hurts
 headache : pain in the head 
