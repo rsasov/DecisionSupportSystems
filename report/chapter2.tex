@@ -69,5 +69,6 @@ Physicians, scientists and other medical experts contributed to the website with
 
 As you can see from the diagrams the database is complicated when it’s about inserting data in it.
 With the current design and structure it’s impossible to be done join between the tables for symptoms and diseases because of the data dependency. In a result while inserting data, every time we should fill the data manually in the diagnosis table in order to have the connection between every symptom and disease at the end. 
-The other problem that is occurring is that the more data we are inserting the bigger becomes the diagnosis table. That means that at some point we are going to face the big data problem.
+The other problem that is occurring is that the more data we are inserting the bigger becomes the diagnosis table. That means that at some point we are going to face the big data problem.\\For future development, solutions for cloud database might be considered but because of the big data either the design should be changed or some optimization techniques should be used on the data.\\
+Otherwise bottleneck may appear in a result of the growing data. 
 
