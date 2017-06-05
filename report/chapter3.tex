@@ -2,8 +2,10 @@
 
 \section{Technology choices}
 
-\paragraph{}%TODO
-Bot logic: Telegram Bot (Python module) \\
+\paragraph{}
+When we	started	the	project,	we	aimed	to	design	a	health	bot	running	on	the	web.	When	we	started	designing	the	healthcare	bot,	we	preferred	the	Python	programming	language	in	 terms	of	resource	abundance	and	high	implementation	speed.	In	this	context,	we	decided	to	use	Django,	the	python	web	framework.	Django	is	specialized	to	make	it	easier	to	build	web	applications	with	complex	databases\cite{bibid}.	Django	is	designed	to	have	the	principles	of	reusability, modularity,	and	rapid	development	process.	For	Chatbot,	we	used	ChatterBot,	which	is	also	a	library	of	Python	language.	ChatterBot	is	designed	for	the	development	of	bots	that	can	communicate	with	the	user	through	an	educatable	automated	dialogue\cite{bibid}.	Finally,	we	used	Scikit-Learn,	a	python	machine	learning	package,	to	get	the	symptoms	out	of	the	input.	
+\paragraph{}
+Due	to	the	lack	of	available	data,	we	had	to	decide	late	on	the	database	architecture.	Due	to	this	reason,	we	delayed	the	construction	of	the	application	with	django,	which	is	based	on	modeling	in	the	database.	At	the	same	time,	the	deficiencies	in	ChatterBot	and	django	integration	and	the	size	of	the	solution	learning	curve	pushed	us	to	change	technology.	For	this	reason,	we	decided	to	develop	a	Telegram	bot	as	a	tool	that	we	can	focus	only	on	bot	training.	Telegram	is	an	open	source	instant	messaging	application.	
 
 \paragraph{}
 In order to create the classifier we decided to \textit{SciKit-learn}\cite{bib:misc:2} a python module easy to use and with wide customization possibilities. To test and visualize the results of the classifier two other tools were used : \textit{Jupyter}\cite{bib:misc:3} and \textit{matplotlib}\footnote{A python library to display plots}
@@ -20,6 +22,9 @@ And last but not least, the legendary reliability and stability of PostgreSQL.
 \section{Natural Language Recognition}
 
 \subsection{Classifier implementation}
+
+\paragraph{}
+In	order	to	process	the	symptom	from	the	user	as	a	meaningful	message	text,	we	treat	each	symptom	stored	in	our	database	as	a	class.	In	this	way,	we	can	see	if	the	input	from	the	user	is	a	symptom	and	if	it	is	a	symptom	which	symptom	it	is.	We	created	some	training	data	for	each	symptom.	At	this	point,	we	can	catch	the	same	complaint	being	expressed	in	different	words.	For	example,	when	a	user	says	"I	have	pain	in	my	head"	instead	of	"I	am	in	a	headache",	we	have	a	chance	to	catch	that	the	symptom	is	actually	a	headache.	
 
 \paragraph{}
 In order to understand the symptom the user enter in input a classifier is used. The dataset is composed of the symptoms and different expressions of them, per example the pair \texttt{headache : my head hurts}.
@@ -40,7 +45,7 @@ Different tests has been done to obtain a good classifier. Two different impleme
 \paragraph{}
 In order to compare the different classifier created, we used confusion matrix. First the classifiers has been tested on the training data then the best one on a test set\footnote{Containing values that are not in the training set}. 
 
-\begin{multicols}{3}
+\begin{multicols}{3}[H]
 	\begin{figure}[H]
 		\centering
 		\includegraphics[height=0.3\textwidth]{classifier_svm}
@@ -80,6 +85,11 @@ The chosen classifier present only 0.5 accuracy. This middling performance is ma
 	\item Use of $n-gram$. This technique consist in using group of words to define a concept instead of words alone. First we look at one word, then 2 and 3 up to $n$.
 \end{itemize}
 
+\section{Interface}
+
+\paragraph{}
+We	have	the	opportunity	to	use	and	customize	the	telegram	chat	interface.	If	the	user	is	only	asked	to	make	a	selection	rather	than	enter	the	data,	the	options	can	be	presented	easily.	
+
 \section{Questions logic}
 
 \begin{figure}[H]
@@ -91,4 +101,5 @@ The chosen classifier present only 0.5 accuracy. This middling performance is ma
 
 \section{Decision making}
 
-TODO
+\paragraph{}
+First,	we	get	personal	information	from	the	user	such	as	gender,	height,	weight,	etc.,	to	use	to	calculate	the	diagnosis	later.	We	then	take	the	user's	complaint	and	determine	which	of	the	symptoms	in	the	data	base	is	pointing	to.	We	find	diseases	with	this	symptom	by	searching	the	incoming	symptom	database.	Then,	we	ask	other	symptoms	of	these	diseases	whether	the	user	has	it.	If	the	patient	gives	the	answer	to	this	question,	if	the	patient	gives	a	yes	response,	we	score	the	diseases	that	the	symptom	belongs	to.	When	the	questions	are	over,	we	tell	the	patient	what	the	patient	may	have	and	we	give	advice	for	the	treatment.	We	then	aim	at	evaluating	personal	data	so	as	to	minimize	any	possible	equality	between	diseases	after	scoring.	In	this	project,	we	prepared	the	data	base	for	ourselves,	so	we	included	close	health	problems	similar	to	each	other	in	our	data	set.	At	this	point,	we	think	that	we	can	see	the	results	of	the	scoring	in	a	healthier	way.	
