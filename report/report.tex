@@ -19,7 +19,18 @@
 	\addcontentsline{toc}{chapter}{Introduction}
 	\chapter*{Introduction}
 	\paragraph{}
-	Here comes the introduction
+	In this project we aimed to create a knowledge-based decision support system working in the field of medicine or more specifically in the field of diagnosis making.\\
+    Today a lot of those systems exist but we all know that they have a bad reputation because of their poor decision-making mechanism. Most of us, as users, have tried to check our symptoms and receive a diagnosis using some of those web tools. The result from those tools is more often disappointing rather than convenient. In other words most of the time the diagnosis made is concerning some deadly disease like cancer.\\
+	That’s the system that we don’t want to create.\\ 
+	Our goal was making a system, which provided with symptoms and users personal information as an input data, has the ability to give a final adequate and precise enough suggestion of disease and following treatment. We want to make a system that helps people go to the right place to be taken care of fast and such that helps for better auto-medication.
+	We decided to achieve this with creating a bot based decision support system.\\  
+	The first thing that took a lot of time for us was deciding the data model and database structure, that are going to be used.\\
+	Our idea is as an input for the bot to use not only symptoms but also some other important side factors as height, weight, age and habits. Taking in consideration those factors is making the final decision more precise. \\
+	For the bot we also created a classifier using python scikit-learn for text analysis and natural language processing. The classifier guarantees us a written language recognition and gives us the feature to classify the complaints written as a message by the user.\\ 
+	The decision-making strategy is based on decision tree. With every given answer connected to a symptom the possible set with diseases is reducing until we have small enough set which can guarantee us decision with good precision. If there is equality the user personal data gathered at the beginning about age, height, weight and habits is used to determine the final decision. \\
+	Along with the decision our bot is providing the user with advice about treatment. At this stage of the project we have 3 categories of advices :
+	“Self-treatment” ; “Visit your doctor” and “Go to ER”. \\
+	For the logic in the bot we are using Telegram Bot. 
 	%TODO
 	
 	\input{chapter1}
