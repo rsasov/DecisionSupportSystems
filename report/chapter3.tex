@@ -44,36 +44,39 @@ Different tests has been done to obtain a good classifier. Two different impleme
 
 \paragraph{}
 In order to compare the different classifier created, we used confusion matrix. First the classifiers has been tested on the training data then the best one on a test set\footnote{Containing values that are not in the training set}. 
-
-\begin{multicols}{3}
+\newpage
+\begin{multicols}{2}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.23\textwidth]{classifier_svm}
+		\includegraphics[width=0.4\textwidth]{classifier_svm}
 		\caption{Confusion matrix for SVM}
 		\label{svm}
 	\end{figure}
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.23\textwidth]{classifier_svm_ovo}
+		\includegraphics[width=0.4\textwidth]{classifier_svm_ovo}
 		\caption{Confusion matrix for SVM using ovo aggregation function}
 		\label{svm_ovo}
 	\end{figure}
 	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.23\textwidth]{classifier_svm_linear}
-		\caption{Confusion matrix for linear SVM}
-		\label{svm_linear}
-	\end{figure}
 \end{multicols}
 
+\begin{multicols}{2}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=9cm]{classifier_svm_linear_test}
+	\includegraphics[width=0.4\textwidth]{classifier_svm_linear_test}
 	\caption{Confusion matrix for linear SVM on test set data}
 	\label{svm_test}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{classifier_svm_linear}
+	\caption{Confusion matrix for linear SVM}
+	\label{svm_linear}
+\end{figure}
+\end{multicols}
 
 So the linear SVM has been chose, for its results better than the two other attempts. 
 
