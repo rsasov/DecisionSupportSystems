@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: plain.bst
+Database file #1: biblio.bib
+You're missing a field name---line 22 of file biblio.bib
+ :    title        = "Kernel method", 
+ :                                    "\url{https://en.wikipedia.org/wiki/Kernel_method}"
+I'm skipping whatever remains of this entry
+You're missing a field name---line 27 of file biblio.bib
+ :    
+ :    "\url{https://en.wikipedia.org/wiki/Support_vector_machine}"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 32 of file biblio.bib
+ :    title        = "A Practical Guide to Support Vector Classification", 
+ :                                                                         "\url{http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf}",
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in bib:misc:2
+Warning--to sort, need author or key in bib:misc:3
+Warning--to sort, need author or key in bib:misc:1
+Warning--empty journal in bib:article:1
+Warning--empty year in bib:article:1
+You've used 7 entries,
+            2118 wiz_defined-function locations,
+            517 strings with 4381 characters,
+and the built_in function-call counts, 1338 in all, are:
+= -- 112
+> -- 42
+< -- 0
++ -- 20
+- -- 12
+* -- 52
+:= -- 198
+add.period$ -- 14
+call.type$ -- 7
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 52
+empty$ -- 153
+format.name$ -- 12
+if$ -- 294
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 1
+newline$ -- 31
+num.names$ -- 8
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 54
+stack$ -- 0
+substring$ -- 36
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 28
+warning$ -- 5
+while$ -- 8
+width$ -- 8
+write$ -- 51
+(There were 3 error messages)

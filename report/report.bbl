@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{bib:misc:3}
+Jupyter.
+\newblock \url{http://jupyter.org/}.
+
+\bibitem{bib:misc:1}
+Postgresql.
+\newblock \url{https://www.postgresql.org/}.
+
+\bibitem{bib:misc:2}
+Scikit-learn.
+\newblock \url{http://scikit-learn.org/stable/}.
+
+\bibitem{bib:article:1}
+Hsu Chih-Wei, Chang Chih-Chung, and Lin Chih-Jen.
+\newblock A practical guide to support vector classification.
+
+\bibitem{bib:misc:4}
+Mayoclinic.
+\newblock \url{http://www.mayoclinic.org/}.
+
+\bibitem{bib:misc:5}
+Wikipedia.org.
+\newblock Kernel method.
+
+\bibitem{bib:misc:6}
+Wikipedia.org.
+\newblock Support vector machine.
+
+\end{thebibliography}

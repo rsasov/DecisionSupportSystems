@@ -1,32 +1,63 @@
 \select@language {english}
 \contentsline {chapter}{Introduction}{2}{Doc-Start}
 \contentsline {paragraph}{}{3}{paragraph*.2}
+\contentsline {paragraph}{}{3}{paragraph*.3}
+\contentsline {paragraph}{}{3}{paragraph*.4}
+\contentsline {paragraph}{}{3}{paragraph*.5}
+\contentsline {paragraph}{}{3}{paragraph*.6}
+\contentsline {paragraph}{}{3}{paragraph*.7}
+\contentsline {paragraph}{}{3}{paragraph*.8}
+\contentsline {paragraph}{}{3}{paragraph*.9}
+\contentsline {paragraph}{}{3}{paragraph*.10}
+\contentsline {paragraph}{}{3}{paragraph*.11}
 \contentsline {chapter}{\numberline {1}Project Analysis}{4}{chapter.1}
 \contentsline {section}{\numberline {1.1}Problem definition}{4}{section.1.1}
-\contentsline {paragraph}{}{4}{paragraph*.3}
-\contentsline {paragraph}{}{4}{paragraph*.4}
+\contentsline {paragraph}{}{4}{paragraph*.12}
+\contentsline {paragraph}{}{4}{paragraph*.13}
 \contentsline {section}{\numberline {1.2}Problem solution}{4}{section.1.2}
-\contentsline {paragraph}{}{4}{paragraph*.5}
+\contentsline {paragraph}{}{4}{paragraph*.14}
 \contentsline {section}{\numberline {1.3}Decision Support System}{4}{section.1.3}
-\contentsline {paragraph}{}{4}{paragraph*.6}
-\contentsline {paragraph}{}{4}{paragraph*.7}
+\contentsline {paragraph}{}{4}{paragraph*.15}
+\contentsline {paragraph}{}{4}{paragraph*.16}
 \contentsline {section}{\numberline {1.4}SWOT Analysis}{4}{section.1.4}
-\contentsline {paragraph}{}{4}{paragraph*.8}
+\contentsline {paragraph}{}{4}{paragraph*.17}
 \contentsline {section}{\numberline {1.5}Division of labor}{5}{section.1.5}
 \contentsline {chapter}{\numberline {2}Project Design}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}Overall Architecture}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Database}{6}{section.2.2}
-\contentsline {paragraph}{}{6}{paragraph*.9}
+\contentsline {paragraph}{}{6}{paragraph*.19}
+\contentsline {paragraph}{}{6}{paragraph*.20}
+\contentsline {paragraph}{}{6}{paragraph*.21}
+\contentsline {paragraph}{}{6}{paragraph*.22}
+\contentsline {paragraph}{}{6}{paragraph*.23}
+\contentsline {paragraph}{}{7}{paragraph*.24}
 \contentsline {section}{\numberline {2.3}Database structure and design}{7}{section.2.3}
-\contentsline {paragraph}{}{7}{paragraph*.10}
+\contentsline {paragraph}{}{7}{paragraph*.25}
 \contentsline {section}{\numberline {2.4}Data model}{8}{section.2.4}
-\contentsline {paragraph}{}{8}{paragraph*.11}
+\contentsline {paragraph}{}{8}{paragraph*.28}
+\contentsline {paragraph}{}{8}{paragraph*.29}
+\contentsline {paragraph}{}{8}{paragraph*.30}
+\contentsline {paragraph}{}{8}{paragraph*.31}
+\contentsline {paragraph}{}{8}{paragraph*.32}
+\contentsline {paragraph}{}{8}{paragraph*.33}
 \contentsline {chapter}{\numberline {3}Project Implementation}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Technology choices}{9}{section.3.1}
-\contentsline {paragraph}{}{9}{paragraph*.12}
-\contentsline {section}{\numberline {3.2}Questions logic}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Decision making}{9}{section.3.3}
-\contentsline {chapter}{\numberline {4}Feedback}{10}{chapter.4}
-\contentsline {paragraph}{}{10}{paragraph*.13}
-\contentsline {chapter}{Conclusion}{10}{paragraph*.13}
-\contentsline {paragraph}{}{11}{paragraph*.15}
+\contentsline {paragraph}{}{9}{paragraph*.34}
+\contentsline {paragraph}{}{9}{paragraph*.35}
+\contentsline {paragraph}{}{9}{paragraph*.36}
+\contentsline {paragraph}{}{9}{paragraph*.37}
+\contentsline {paragraph}{}{9}{paragraph*.38}
+\contentsline {paragraph}{}{9}{paragraph*.39}
+\contentsline {section}{\numberline {3.2}Natural Language Recognition}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Classifier implementation}{9}{subsection.3.2.1}
+\contentsline {paragraph}{}{9}{paragraph*.40}
+\contentsline {paragraph}{}{9}{paragraph*.41}
+\contentsline {paragraph}{}{10}{paragraph*.43}
+\contentsline {paragraph}{}{10}{paragraph*.44}
+\contentsline {subsection}{\numberline {3.2.2}Review on results}{11}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Questions logic}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Decision making}{13}{section.3.4}
+\contentsline {chapter}{\numberline {4}Feedback}{14}{chapter.4}
+\contentsline {paragraph}{}{14}{paragraph*.50}
+\contentsline {chapter}{Conclusion}{14}{paragraph*.50}
+\contentsline {paragraph}{}{15}{paragraph*.52}
