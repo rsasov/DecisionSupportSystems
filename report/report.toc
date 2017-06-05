@@ -69,5 +69,4 @@
 \contentsline {paragraph}{Baidu Melody:}{14}{paragraph*.58}
 \contentsline {chapter}{\numberline {5}Feedback}{15}{chapter.5}
 \contentsline {paragraph}{}{15}{paragraph*.59}
-\contentsline {chapter}{Conclusion}{15}{paragraph*.59}
-\contentsline {paragraph}{}{16}{paragraph*.61}
+\contentsline {paragraph}{}{15}{paragraph*.60}
