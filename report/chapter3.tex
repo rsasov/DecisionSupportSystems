@@ -8,7 +8,7 @@ When we	started	the	project,	we	aimed	to	design	a	health	bot	running	on	the	web.
 Due	to	the	lack	of	available	data,	we	had	to	decide	late	on	the	database	architecture.	Due	to	this	reason,	we	delayed	the	construction	of	the	application	with	django,	which	is	based	on	modeling	in	the	database.	At	the	same	time,	the	deficiencies	in	ChatterBot	and	django	integration	and	the	size	of	the	solution	learning	curve	pushed	us	to	change	technology.	For	this	reason,	we	decided	to	develop	a	Telegram	bot	as	a	tool	that	we	can	focus	only	on	bot	training\cite{bib:misc:9}.	Telegram	is	an	open	source	instant	messaging	application.	
 
 \paragraph{}
-In order to create the classifier we decided to \textit{SciKit-learn}\cite{bib:misc:2} a python module easy to use and with wide customization possibilities. To test and visualize the results of the classifier two other tools were used : \textit{Jupyter}\cite{bib:misc:3} and \textit{matplotlib}\footnote{A python library to display plots}
+In order to create the classifier we decided to use \textit{SciKit-learn}\cite{bib:misc:2} a python module easy to use and with wide customization possibilities. To test and visualize the results of the classifier two other tools were used : \textit{Jupyter}\cite{bib:misc:3} and \textit{matplotlib}\footnote{A python library to display plots}
 
 \paragraph{}
 The database technology that we decided to use is \textit{PostgreSQL}\cite{bib:misc:1}.
@@ -24,10 +24,10 @@ And last but not least, the legendary reliability and stability of PostgreSQL.
 \subsection{Classifier implementation}
 
 \paragraph{}
-In	order	to	process	the	symptom	from	the	user	as	a	meaningful	message	text,	we	treat	each	symptom	stored	in	our	database	as	a	class.	In	this	way,	we	can	see	if	the	input	from	the	user	is	a	symptom	and	if	it	is	a	symptom	which	symptom	it	is.	We	created	some	training	data	for	each	symptom.	At	this	point,	we	can	catch	the	same	complaint	being	expressed	in	different	words.	For	example,	when	a	user	says	"I	have	pain	in	my	head"	instead	of	"I	am	in	a	headache",	we	have	a	chance	to	catch	that	the	symptom	is	actually	a	headache.	
+In	order	to	process	the	symptom	from	the	user	as	a	meaningful	message	text,	we	treat	each	symptom	stored	in	our	database	as	a	class.	In	this	way,	we	can	see	if	the	input	from	the	user	is	a	symptom	and	if	it	is	a	symptom	which	symptom	it	is.	We	created	some	training	data	for	each	symptom.	At	this	point,	we	can	catch	the	same	complaint	being	expressed	in	different	words.	For	example,	when	a	user	says	"I	have	pain	in	my	head"	instead	of	"I	have	a	headache",	we	have	a	chance	to	catch	that	the	symptom	is	actually	a	headache.	
 
 \paragraph{}
-In order to understand the symptom the user enter in input a classifier is used. The dataset is composed of the symptoms and different expressions of them, per example the pair \texttt{headache : my head hurts}.
+In order to understand the symptom the user enters in as an input, a classifier is used. The dataset is composed of the symptoms and different expressions of them, per example the pair \texttt{headache : my head hurts}.
 
 \paragraph{}
 First of all, as the classes are known, a supervised method is to be used. In natural language processing the Support Vector Machine (SVM)\cite{bib:misc:6} is well known for its efficiency on supervised problems. So it has been decided to use this method. 
@@ -102,4 +102,4 @@ We	have	the	opportunity	to	use	and	customize	the	telegram	chat	interface.	If	the
 \section{Decision making}
 
 \paragraph{}
-First,	we	get	personal	information	from	the	user	such	as	gender,	height,	weight,	etc.,	to	use	to	calculate	the	diagnosis	later.	We	then	take	the	user's	complaint	and	determine	which	of	the	symptoms	in	the	data	base	is	pointing	to.	We	find	diseases	with	this	symptom	by	searching	the	incoming	symptom	database.	Then,	we	ask	other	symptoms	of	these	diseases	whether	the	user	has	it.	If	the	patient	gives	the	answer	to	this	question,	if	the	patient	gives	a	yes	response,	we	score	the	diseases	that	the	symptom	belongs	to.	When	the	questions	are	over,	we	tell	the	patient	what	the	patient	may	have	and	we	give	advice	for	the	treatment.	We	then	aim	at	evaluating	personal	data	so	as	to	minimize	any	possible	equality	between	diseases	after	scoring.	In	this	project,	we	prepared	the	data	base	for	ourselves,	so	we	included	close	health	problems	similar	to	each	other	in	our	data	set.	At	this	point,	we	think	that	we	can	see	the	results	of	the	scoring	in	a	healthier	way.	
+First,	we	get	personal	information	from	the	user	such	as	gender,	height,	weight,	etc.,	to	use	to	calculate	the	diagnosis	later.	We	then	take	the	user's	complaint	and	determine	which	of	the	symptoms	in	the	data	base	is	pointing	to.	We	find	diseases	with	this	symptom	by	searching	the	incoming	symptom	database.	Then,	we	ask	other	symptoms	of	these	diseases	whether	the	user	has	it.	If	the	patient	gives a	yes	response to	this	question,	we	increase the score	of the	diseases	that	the	symptom	belongs	to.	When	the	questions	are	over,	we	tell	the	patient	what	the	patients condition might be	and	we	give	advice	for	the	treatment.	We	then	aim	at	evaluating	personal	data	so	as	to	minimize	any	possible	equality	between	diseases	after	scoring.	In	this	project,	we	prepared	the	database	for	ourselves,	so	we	included	close	health	problems	similar	to	each	other	in	our	data	set.	At	this	point,	we	think	that	we	can	see	the	results	of	the	scoring	in	a	healthier	way.	
