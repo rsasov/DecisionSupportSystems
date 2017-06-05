@@ -55,18 +55,18 @@
 \contentsline {subsection}{\numberline {3.2.2}Review on results}{11}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Interface}{11}{section.3.3}
 \contentsline {paragraph}{}{11}{paragraph*.50}
-\contentsline {section}{\numberline {3.4}Questions logic}{12}{section.3.4}
-\contentsline {section}{\numberline {3.5}Decision making}{13}{section.3.5}
-\contentsline {paragraph}{}{13}{paragraph*.52}
-\contentsline {chapter}{\numberline {4}User and competitive Analysis}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}User Analysis}{14}{section.4.1}
+\contentsline {section}{\numberline {3.4}Questions logic}{13}{section.3.4}
+\contentsline {section}{\numberline {3.5}Decision making}{14}{section.3.5}
 \contentsline {paragraph}{}{14}{paragraph*.53}
-\contentsline {section}{\numberline {4.2}Competitive Analysis }{14}{section.4.2}
-\contentsline {paragraph}{}{14}{paragraph*.54}
-\contentsline {paragraph}{Your Md.:}{14}{paragraph*.55}
-\contentsline {paragraph}{Babylon Health:}{14}{paragraph*.56}
-\contentsline {paragraph}{Ada Health:}{14}{paragraph*.57}
-\contentsline {paragraph}{Baidu Melody:}{14}{paragraph*.58}
-\contentsline {chapter}{\numberline {5}Feedback}{15}{chapter.5}
-\contentsline {paragraph}{}{15}{paragraph*.59}
-\contentsline {paragraph}{}{15}{paragraph*.60}
+\contentsline {chapter}{\numberline {4}User and competitive Analysis}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}User Analysis}{15}{section.4.1}
+\contentsline {paragraph}{}{15}{paragraph*.54}
+\contentsline {section}{\numberline {4.2}Competitive Analysis }{15}{section.4.2}
+\contentsline {paragraph}{}{15}{paragraph*.55}
+\contentsline {paragraph}{Your Md.:}{15}{paragraph*.56}
+\contentsline {paragraph}{Babylon Health:}{15}{paragraph*.57}
+\contentsline {paragraph}{Ada Health:}{15}{paragraph*.58}
+\contentsline {paragraph}{Baidu Melody:}{15}{paragraph*.59}
+\contentsline {chapter}{\numberline {5}Feedback}{16}{chapter.5}
+\contentsline {paragraph}{}{16}{paragraph*.60}
+\contentsline {paragraph}{}{16}{paragraph*.61}
