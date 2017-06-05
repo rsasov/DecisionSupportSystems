@@ -1,8 +1,20 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{bib:misc:8}
+Chatterbot.
+\newblock \url{https://github.com/gunthercox/ChatterBot}.
+
+\bibitem{bib:misc:7}
+Django.
+\newblock \url{https://www.djangoproject.com/}.
 
 \bibitem{bib:misc:3}
 Jupyter.
 \newblock \url{http://jupyter.org/}.
+
+\bibitem{bib:misc:4}
+Mayoclinic.
+\newblock \url{http://www.mayoclinic.org/}.
 
 \bibitem{bib:misc:1}
 Postgresql.
@@ -12,20 +24,24 @@ Postgresql.
 Scikit-learn.
 \newblock \url{http://scikit-learn.org/stable/}.
 
+\bibitem{bib:misc:9}
+Telegram bot.
+\newblock \url{https://telegram.org/blog/bot-revolution}.
+
 \bibitem{bib:article:1}
 Hsu Chih-Wei, Chang Chih-Chung, and Lin Chih-Jen.
 \newblock A practical guide to support vector classification.
-
-\bibitem{bib:misc:4}
-Mayoclinic.
-\newblock \url{http://www.mayoclinic.org/}.
+\newblock {\em National Taiwan University, Taipei 106, Taiwan}, May 2016.
+\newblock \url{http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf}.
 
 \bibitem{bib:misc:5}
 Wikipedia.org.
 \newblock Kernel method.
+\newblock \url{https://en.wikipedia.org/wiki/Kernel_method}.
 
 \bibitem{bib:misc:6}
 Wikipedia.org.
 \newblock Support vector machine.
+\newblock \url{https://en.wikipedia.org/wiki/Support_vector_machine}.
 
 \end{thebibliography}

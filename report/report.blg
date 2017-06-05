@@ -3,63 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: plain.bst
 Database file #1: biblio.bib
-You're missing a field name---line 22 of file biblio.bib
- :    title        = "Kernel method", 
- :                                    "\url{https://en.wikipedia.org/wiki/Kernel_method}"
-I'm skipping whatever remains of this entry
-You're missing a field name---line 27 of file biblio.bib
- :    
- :    "\url{https://en.wikipedia.org/wiki/Support_vector_machine}"
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 32 of file biblio.bib
- :    title        = "A Practical Guide to Support Vector Classification", 
- :                                                                         "\url{http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf}",
-I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in bib:misc:4
+Warning--to sort, need author or key in bib:misc:7
+Warning--to sort, need author or key in bib:misc:8
+Warning--to sort, need author or key in bib:misc:9
 Warning--to sort, need author or key in bib:misc:2
 Warning--to sort, need author or key in bib:misc:3
 Warning--to sort, need author or key in bib:misc:1
-Warning--empty journal in bib:article:1
-Warning--empty year in bib:article:1
-You've used 7 entries,
+You've used 10 entries,
             2118 wiz_defined-function locations,
-            517 strings with 4381 characters,
-and the built_in function-call counts, 1338 in all, are:
-= -- 112
-> -- 42
+            531 strings with 4786 characters,
+and the built_in function-call counts, 1809 in all, are:
+= -- 161
+> -- 39
 < -- 0
-+ -- 20
-- -- 12
-* -- 52
-:= -- 198
-add.period$ -- 14
-call.type$ -- 7
-change.case$ -- 27
++ -- 21
+- -- 10
+* -- 66
+:= -- 242
+add.period$ -- 24
+call.type$ -- 10
+change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 52
-empty$ -- 153
-format.name$ -- 12
-if$ -- 294
+cite$ -- 17
+duplicate$ -- 73
+empty$ -- 223
+format.name$ -- 10
+if$ -- 417
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 10
 missing$ -- 1
-newline$ -- 31
-num.names$ -- 8
-pop$ -- 67
+newline$ -- 47
+num.names$ -- 6
+pop$ -- 104
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 25
 quote$ -- 0
-skip$ -- 54
+skip$ -- 60
 stack$ -- 0
-substring$ -- 36
-swap$ -- 6
+substring$ -- 51
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
-warning$ -- 5
-while$ -- 8
-width$ -- 8
-write$ -- 51
-(There were 3 error messages)
+type$ -- 40
+warning$ -- 7
+while$ -- 6
+width$ -- 12
+write$ -- 81
+(There were 7 warnings)

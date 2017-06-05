@@ -18,9 +18,8 @@
 \contentsline {section}{\numberline {1.3}Decision Support System}{4}{section.1.3}
 \contentsline {paragraph}{}{4}{paragraph*.14}
 \contentsline {paragraph}{}{4}{paragraph*.15}
-\contentsline {section}{\numberline {1.4}SWOT Analysis}{4}{section.1.4}
-\contentsline {paragraph}{}{4}{paragraph*.16}
-\contentsline {section}{\numberline {1.5}Division of labor}{4}{section.1.5}
+\contentsline {section}{\numberline {1.4}SWOT Analysis}{5}{section.1.4}
+\contentsline {section}{\numberline {1.5}Division of labor}{5}{section.1.5}
 \contentsline {chapter}{\numberline {2}Project Design}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}Overall Architecture}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Database}{6}{section.2.2}
